@@ -74,7 +74,7 @@ case $os in
         sleep 1
         echo "Installing puppet..."
         echo
-        yum install puppet
+        yum install -y puppet
         sleep 1
         ;;
     *) 
